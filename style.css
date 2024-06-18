@@ -1,0 +1,91 @@
+body{
+	font-family: Helvetica;
+	font-size: 15px;
+}
+#contenedor{
+	border:1px solid;
+	margin: 1em ;
+}
+h1{
+	border:1px solid;
+	margin: 1em;
+	text-align:center;
+	padding: 1.5em;
+}
+.flex-container{
+	margin: 1em;
+	padding: 1.5em;
+	text-align: center;
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+	justify-content: space-between;
+
+}
+.flex-container2{
+	margin: 1em;
+	padding: 1.5em;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-around;
+	
+}
+.flex-container3{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.naranja1{
+	text-align: center;
+	font-size: 2em;
+	background-color: #ff8924;
+	padding: 1em;
+	width: 15%;
+	margin: 0.5em;
+}
+.azul1{
+	text-align: center;
+	font-size: 2em;
+	background-color: #47b8e3;
+	
+	padding: 1em;
+	width: 15%;
+	margin: 0.5em;
+}
+.naranja2{
+	text-align: center;
+	font-size: 2em;
+	background-color:#ff8924;
+	padding: 1em;
+	width: 50%;
+	margin: 0.5em;
+}
+.azul2{
+	text-align: center;
+	font-size: 2em;
+	background-color: #47b8e3;
+	padding: 1em;
+	width: 50%;
+	margin: 0.5em;
+}
+main{
+	border:1px solid;
+	padding: 1em;
+	width: 75%;
+	font-weight: bold;
+
+}
+aside{
+	border:1px solid;
+	padding: 1em;
+	width: 15%;
+	font-weight: bold;
+}
+footer{
+	border:1px solid;
+	padding: 1em;
+	margin:1em;
+	text-align: center;
+}
